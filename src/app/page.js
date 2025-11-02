@@ -115,19 +115,21 @@ export default function Home() {
               WebkitBackdropFilter: 'blur(10px)',
             }}
           >
-            <h2 className="text-3xl sm:text-4xl font-medium mb-6 text-white text-left">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-6 text-white text-left">
                More About Me
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-4">
-              Hi, I'm Jo Saji, a passionate full-stack developer and AI enthusiast dedicated to creating
-              innovative solutions that solve real-world problems. With a strong foundation in both frontend
-              and backend development, I specialize in building scalable web applications that integrate
-              cutting-edge AI technologies.
+            Hi, I’m Jo Saji, a passionate Full-Stack Developer and AI Enthusiast dedicated to building innovative,
+             high-impact digital solutions. With a solid foundation in both frontend and backend development, 
+             I specialize in developing scalable web applications that seamlessly integrate advanced AI technologies
+              to solve real-world challenges.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed mb-4">
-              My journey in technology has been driven by curiosity and a desire to continuously learn and
-              grow. I enjoy working with modern frameworks and tools, exploring the latest AI advancements,
-              and automating processes to improve efficiency.
+            My journey in technology has been fueled by an insatiable curiosity and a commitment to continuous growth.
+             I take great interest in exploring emerging technologies and staying updated with modern development practices.
+              I enjoy working with contemporary frameworks and tools to craft efficient and scalable solutions.
+               Beyond coding, I’m passionate about leveraging AI advancements and automation techniques to optimize workflows,
+               enhance productivity, and drive smarter innovation in every project I undertake.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
               When I'm not coding, you can find me exploring new technologies, contributing to open-source

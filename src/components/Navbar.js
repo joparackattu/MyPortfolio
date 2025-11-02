@@ -24,11 +24,12 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="sticky top-0 z-50 glass backdrop-blur-md border-b border-white/10">
+    <nav className="sticky top-0 z-50" style={{ background: 'transparent' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-           /// JO here...
+          <Link href="/" className="text-2xl font-medium bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent -ml-5">
+          <p>{"Welcome to my portfolio..."}</p>
+
           </Link>
 
           {/* Desktop Navigation */}
@@ -89,7 +90,7 @@ export default function Navbar() {
               transition={{ duration: 0.2 }}
               className="md:hidden overflow-hidden"
             >
-              <div className="px-2 pt-2 pb-4 space-y-1 border-t border-white/10 mt-2">
+              <div className="px-2 pt-2 pb-4 space-y-1 mt-2">
                 {navLinks.map((link) => (
                   <Link
                     key={link.href}
